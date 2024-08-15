@@ -261,7 +261,7 @@ body {
     }
 
     .overley .close {
-        top: 25%;
+        top: 23%;
     } 
 
     .overley-content {
@@ -279,10 +279,11 @@ body {
 
     .footer {
         margin-bottom: 10px;
+        text-align: start;
     }
 }
 
-/* ukuran layar dari 576px sampai 992px */
+/* ukuran layar dari 576px sampai 768px */
   @media only screen and (min-width:576px) and (max-width: 768px) {
 
     .gallery {
@@ -310,6 +311,16 @@ body {
         top: 20%;
     } 
 
+    .overley .img-overley {
+        width: 280px;
+        height: 300px;
+    }
+
+   .next .img-next, .prev .img-next {
+    width: 50px;
+    height: 73px;
+    }
+
     .footer {
         margin-top: 30px;
     }
@@ -317,7 +328,7 @@ body {
 
    }
 
-/* ukuran layar dari 576px sampai 992px */
+/* ukuran layar dari 768px sampai 992px */
   @media only screen and (min-width:768px) and (max-width: 992px) {
 
     .gallery {
