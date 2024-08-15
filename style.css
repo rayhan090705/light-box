@@ -234,6 +234,7 @@ body {
     }
 
     .gallery {
+        border: none;
         width:100%;
         height: auto;
     }
@@ -282,7 +283,42 @@ body {
 }
 
 /* ukuran layar dari 576px sampai 992px */
-  @media only screen and (min-width:576px) and (max-width: 992px) {
+  @media only screen and (min-width:576px) and (max-width: 768px) {
+
+    .gallery {
+        width: 450px;
+        height: 500px;
+    }
+
+    .gallery ul li {
+        margin: 10px;
+    }    
+
+    .gallery ul li .img-1  {
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .gallery ul li p {
+        left: 40px; 
+        font-size: 1.5em;
+        line-height: 150px;
+    }
+
+    .overley .close {
+        top: 20%;
+    } 
+
+    .footer {
+        margin-top: 30px;
+    }
+    
+
+   }
+
+/* ukuran layar dari 576px sampai 992px */
+  @media only screen and (min-width:768px) and (max-width: 992px) {
 
     .gallery {
         width: 700px;
@@ -299,7 +335,7 @@ body {
     }
 
     .gallery ul li p {
-        left: 120px;
+        /* left: 120px; */
         font-size: 1.5em;
         line-height: 300px;
     }
